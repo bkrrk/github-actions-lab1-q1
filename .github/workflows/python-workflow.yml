@@ -15,7 +15,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        ls ../
-        cat ../requirements.txt
-        pip install -r ../../requirements.txt
+        ls ./
+        cat ./requirements.txt
+        pip install -r ./requirements.txt
 
